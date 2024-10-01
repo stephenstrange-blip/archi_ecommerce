@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     color: aliceblue;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 .header {
     display: flex;
@@ -18,22 +18,30 @@ body {
     align-content: center;
     /* margin: 1%; */
     padding: 2%;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     width: 68%;
     gap: 50px;
-}
+    font-family: 'Open Sans', 'Open Sans', 'Arial', sans-serif}
+
 .logo-container {
+    border: 2px dotted black;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    border: 2px dotted black;
+    align-items: center;
+    flex-direction: row;
+}
+.logo {
+    font-size: 36px;
+    /* border: 2px dotted black; */
 }
 .logo2 {
-    color: rgb(12, 160, 12);
+    color: rgb(43, 196, 150);
+    /* border: 2px dotted black; */
+    align-self: flex-start;
 }
 .Home-header {
     margin-left: auto;
-    color: rgb(12, 160, 12);
+    color: rgb(43, 196, 150);
 }
 .Search {
     margin-left: 20px;
@@ -45,16 +53,14 @@ body {
     gap: 5px;
     font-size: 12px;
 }
-.logo {
-    font-size: 36px;
-}
+
 
 .Description-container {
     display: flex;
     height: 700px;
     justify-content: center;
     align-items: center;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
 }
 .Description {
     display: flex;
@@ -62,21 +68,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     font-size: 36px;
     gap: 12px;
-    padding: .8% .2% .8% .2%;
+    padding: 1% 1% 1% 1%;
     color: aliceblue;
 }
 .Lower.Description{
     font-size: 24px;
     text-align: center;
+    width: fit-content;
+    line-height: 1.8;
     background-color: rgba(29, 27, 27, 0.1);
     /* opacity: .5; */
 }
 
 .Upper.Description {
     width: fit-content;
+    font-size: 36px;
     background-color: rgba(29, 27, 27, 0.1);
 }
 
