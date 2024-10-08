@@ -9,26 +9,27 @@
     <script src="https://kit.fontawesome.com/fc5928b500.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header-container">
-        <div class="header">
-            <div class="logo-container">
-                <div class="logo">PIVOT</div>
-                <div class="logo2">280</div>
-            </div>
-            <div class="Home-header">HOME</div>
-            <div class="About-us">ABOUT US</div>
-            <div class="Services">SERVICES</div>
-            <div class="References">REFERENCES</div>
-            <div class="Blog">BLOG</div>
-            <div class="Contact">CONTACT</div>
-            <div class="Search">SE</div>
-            <div class="Language">
-                <div class="English">EN</div>
-                <div class="Hungarian">HU</div>
+    <div class="Description-container">
+        <div class="header-container">
+            <div class="header">
+                <div class="logo-container">
+                    <div class="logo">PIVOT</div>
+                    <div class="logo2">280</div>
+                </div>
+                <div class="Home-header">HOME</div>
+                <div class="About-us">ABOUT US</div>
+                <div class="Services">SERVICES</div>
+                <div class="References">REFERENCES</div>
+                <div class="Blog">BLOG</div>
+                <div class="Contact">CONTACT</div>
+                <div class="Search">SE</div>
+                <div class="Language">
+                    <div class="English">EN</div>
+                    <div class="Hungarian">HU</div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="Description-container">
+    
         <div class="Description">
             <div class="Upper Description">DESIGN AND FUNCTION</div>
             <div class="Lower Description">PIVOT280 OFFERS A WIDE RANGE OF SERVICES,</br> 
@@ -117,28 +118,28 @@
         </div>
     </div>
 
-    <div class="be-section references-container">
+    <div class="be-section references-container" style="background-color: #e8e8e8;">
         <div class="be-section references-pad" style="padding-top: 50px; padding-bottom: 50px;">
             <div class="be-row">
-                <div class="one-col column-block">
+                <div class="one-col column-block references">
                     <div class="top-references-block">
                         <div class="special-heading align-center">
                             <h1 class="special-h-tag" style="text-align: center;">REFERENCES</h1>
                             <div class="sub-title" style="text-align: center;">Take a look at our previous projects, which gave various companies a new and unique image.</div>
-                            <hr class="separator style-2" style="background-color:#efefef;border-color:#efefef;color:#efefef;">
+                            <!-- <hr class="separator style-2" style="background-color:#efefef;border-color:#efefef;color:#efefef;"> -->
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="be-row">
-                <div class="one-col column-block">
+            <div class="be-row ref-pages">
+                <div class="one-col column-block references">
                     <div class="portfolio full-screen five-col" data-action="get_ajax_full_screen_portfolio"
                      data-category="kiallitasi-stand,product-design,kontenerdesign,office-design,optical-shop-design,belso-epiteszet" 
                      data-masonry="0" data-showposts="10" data-paged="2" data-col="five" data-gallery="0" data-filter="categories" 
                      data-show_filters="yes" data-thumbnail-bg-color="rgba(,,,0)">
                         <div class="filters clearfix">
-                            <h6>
-                                <span class="sort" data-id="element">See all</span>
+                            <h6 id="see-all">
+                                <span class="sort" data-id="element" style="color: #26cda4;">See all</span>
                             </h6>
                             <h6>
                                 <span class="sort" data-id="kiallitasi-stand">EXHIBITION STAND DESIGN</span>
@@ -158,12 +159,10 @@
                             <h6>
                                 <span class="sort" data-id="belso-epiteszet">STORE DESIGN</span>
                             </h6>
-                            <div class="clear"></div>
-                            <div id="gallery_desc_content"></div>
-                            <div class="clear"></div>
+
                         </div>
-                        <div class="portfolio-container clickable clearfix" style="width: 1915px; position: relative; height: 226.844px;">
-                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="veeva-iroda" style="position: absolute; left: 0px; top: 0px; display: none;">
+                        <div class="portfolio-container clickable clearfix">
+                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="veeva-iroda">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/veeva-office/" data-href="http://pivot270.com/portfolio/veeva-office/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2024/09/dsc00924-large-thumb-650x385.jpg" alt="">
@@ -175,11 +174,11 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay product-design  not-wide no-wide-width-height" id="bankmonitor-office" style="position: absolute; left: 0px; top: 0px;">
+                            <div class="element be-hoverlay product-design  not-wide no-wide-width-height" id="bankmonitor-office">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/bankmonitor-office/" data-href="http://pivot270.com/portfolio/bankmonitor-office/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2024/08/dsc02810-hdr-650x385.jpg" alt="">
-                                        <span class="thumb-overlay" style="display: none;">
+                                        <span class="thumb-overlay">
                                             <span class="thumb-bg" style="background-color:rgba(0,0,0,0);">
                                                 <span class="thumb-title fadeInLeft animated">Bankmonitor office</span>
                                             </span>
@@ -187,11 +186,11 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay product-design office-design  not-wide no-wide-width-height" id="marina-city-office" style="position: absolute; left: 383px; top: 0px;">
+                            <div class="element be-hoverlay product-design office-design  not-wide no-wide-width-height" id="marina-city-office">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/marina-city-office/" data-href="http://pivot270.com/portfolio/marina-city-office/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2024/08/dsc04120-hdr-650x385.jpg" alt="">
-                                        <span class="thumb-overlay" style="display: block; opacity: 0;">
+                                        <span class="thumb-overlay">
                                             <span class="thumb-bg" style="background-color:rgba(0,0,0,0);">
                                                 <span class="thumb-title fadeInLeft animated">Marina City office</span>
                                             </span>
@@ -199,11 +198,11 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay product-design office-design  not-wide no-wide-width-height" id="gestor-iroda" style="position: absolute; left: 766px; top: 0px;">
+                            <div class="element be-hoverlay product-design office-design  not-wide no-wide-width-height" id="gestor-iroda">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/gestor-office-2/" data-href="http://pivot270.com/portfolio/gestor-office-2/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2023/10/dsc02711-hdr-650x385.jpg" alt="">
-                                        <span class="thumb-overlay" style="display: none;">
+                                        <span class="thumb-overlay">
                                             <span class="thumb-bg" style="background-color:rgba(0,0,0,0);">
                                                 <span class="thumb-title fadeInLeft animated">Gestor office</span>
                                             </span>
@@ -211,7 +210,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="profession-iroda" style="position: absolute; left: 1532px; top: 0px; display: none;">
+                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="profession-iroda">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/profession-office/" data-href="http://pivot270.com/portfolio/profession-office/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2022/07/dsc06147-hdr-650x385.jpg" alt="">
@@ -223,7 +222,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="sega-office" style="position: absolute; left: 0px; top: 226px; display: none;">
+                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="sega-office">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/sega-office/" data-href="http://pivot270.com/portfolio/sega-office/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2021/07/ftp04513_hd-650x385.jpg" alt="">
@@ -235,11 +234,11 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay product-design belso-epiteszet  not-wide no-wide-width-height" id="breitling" style="position: absolute; left: 1149px; top: 0px;">
+                            <div class="element be-hoverlay product-design belso-epiteszet  not-wide no-wide-width-height" id="breitling">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/breitling-eng/" data-href="http://pivot270.com/portfolio/breitling-eng/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2022/06/breitling_photocreditberes_1-min-650x385.jpg" alt="">
-                                        <span class="thumb-overlay" style="display: none;">
+                                        <span class="thumb-overlay">
                                             <span class="thumb-bg" style="background-color:rgba(0,0,0,0);">
                                                 <span class="thumb-title fadeInLeft animated">Breitling Boutique</span>
                                             </span>
@@ -247,7 +246,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="nutriversum-bedeco-iroda" style="position: absolute; left: 766px; top: 226px; display: none;">
+                            <div class="element be-hoverlay office-design  not-wide no-wide-width-height" id="nutriversum-bedeco-iroda">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/nutriversum-bececooffice/" data-href="http://pivot270.com/portfolio/nutriversum-bececooffice/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2022/03/nutriversum_2022_07-650x385.jpg" alt="">
@@ -259,7 +258,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay optical-shop-design  not-wide no-wide-width-height" id="medicover-optics-westend" style="position: absolute; left: 1149px; top: 226px; display: none;">
+                            <div class="element be-hoverlay optical-shop-design  not-wide no-wide-width-height" id="medicover-optics-westend">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/medicover-optics/" data-href="http://pivot270.com/portfolio/medicover-optics/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2022/11/dsc00866-2-650x385.jpg" alt="">
@@ -268,14 +267,14 @@
                                                 <span class="thumb-title fadeInLeft animated">MEDICOVER OPTICS – WESTEND</span>
                                             </span>
                                         </span>
-                                    </a>'
+                                    </a>
                                 </div>
                             </div>
-                            <div class="element be-hoverlay product-design office-design  not-wide no-wide-width-height" id="bca-group-iroda" style="position: absolute; left: 1532px; top: 0px;">
+                            <div class="element be-hoverlay product-design office-design  not-wide no-wide-width-height" id="bca-group-iroda">
                                 <div class="element-inner">
                                     <a href="http://pivot270.com/portfolio/bca-group-office/" data-href="http://pivot270.com/portfolio/bca-group-office/" class="thumb-wrap  mfp-image">
                                         <img src="http://pivot270.com/wp-content/uploads/2022/12/dsc06635-2-650x385.jpg" alt="">
-                                        <span class="thumb-overlay" style="display: none;">
+                                        <span class="thumb-overlay">
                                             <span class="thumb-bg" style="background-color:rgba(0,0,0,0);">
                                                 <span class="thumb-title fadeInLeft animated">BCA Group Office</span>
                                             </span>
@@ -283,7 +282,8 @@
                                     </a>
                                 </div>
                             </div>
-                        <span class="thumb-title fadeInLeft animated">BCA Group Office</span></span></span></a></div></div></div></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
