@@ -149,7 +149,7 @@ body {
 }
 
 .be-section {
-    background-color: #ffffff; 
+    /* background-color: #ffffff;  */
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -286,12 +286,16 @@ body {
     height: fit-content;
     width: 100%;
 }
-.be-section.references-container * {
-    /* border: 1px solid blue; */
+.be-section.references-container  {
+    background-color: #e8e8e8;
 }
 .be-section.references-pad {
     flex-direction: column;
     width: 100%;
+}
+.be-row.references-title {
+    height: 150px;
+    /* border: 2px solid black; */
 }
 .one-col.column-block.references {
     width: 100%;
@@ -468,7 +472,7 @@ h5 {
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-    margin-bottom: 60px;
+    
     float: none;
     margin-left: 0;
     flex-direction: column;
@@ -614,4 +618,35 @@ h5 {
     display: flex;
     flex-flow: column wrap;
     gap: 5px;
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.animate-number {
+    transition: --num 5s;
+    counter-reset: num var(--num);
+    --num:500;
+}
+.animate-number::content{
+    /* --num:500; */
+}
+
+.renderings {
+    /* --num:12778; */
+}
+.submitted-projects {
+    /* --num:555; */
+}
+.coffee {
+    /* --num: 4786; */
+}
+.modelled-segments {
+    /* --num: 755120; */
+}
+.animate-number::after{
+    
+    content: counter(num);
 }
